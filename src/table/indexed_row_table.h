@@ -1,6 +1,6 @@
 #pragma once
 #include "table.h"
-#include <unordered_map>
+#include "../BPlusTree.h"
 #include <vector>
 
 namespace bytedance_db_project {
@@ -48,7 +48,8 @@ public:
 private:
   int32_t num_cols_{0};
   int32_t num_rows_{0};
-  std::unordered_map<int32_t, std::vector<int32_t>> index_;
+  //std::unordered_map<int32_t, std::vector<int32_t>> index_;
+  Bplustree::BPlusTree<char, int32_t> index_;
   char *rows_{nullptr};
   int32_t index_column_{0};
 };

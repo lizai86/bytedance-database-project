@@ -1,0 +1,1 @@
+/usr/local/bin/g++ -std=c++11 -Wall -lpthread -lm -fPIC -ggdb3 -Og -fno-omit-frame-pointer -no-pie -fno-strict-aliasing  -rdynamic CMakeFiles/custom_table_test.dir/custom_table_test.cc.o -o custom_table_test  -Wl,-rpath,/home/fhl/bytedance-database-project/build/src -Wl,-Bstatic -lgtest_main -lgtest -Wl,-Bdynamic ../../src/libdatabase_project_lib.so 

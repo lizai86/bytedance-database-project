@@ -15,10 +15,10 @@
 ########################
 
 //false
-BUILD_LAB_1_UT:BOOL=true
+BUILD_LAB_1_UT:BOOL=false
 
 //false
-BUILD_LAB_2_UT:BOOL=false
+BUILD_LAB_2_UT:BOOL=true
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -34,7 +34,7 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/usr/local/bin/c++
+CMAKE_CXX_COMPILER:FILEPATH=/usr/local/bin/g++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -273,13 +273,13 @@ database_project_test_IS_TOP_LEVEL:STATIC=OFF
 database_project_test_SOURCE_DIR:STATIC=/home/fhl/bytedance-database-project/test
 
 //Value Computed by CMake
-database_project_test_lab1_BINARY_DIR:STATIC=/home/fhl/bytedance-database-project/build/test/lab1
+database_project_test_lab2_BINARY_DIR:STATIC=/home/fhl/bytedance-database-project/build/test/lab2
 
 //Value Computed by CMake
-database_project_test_lab1_IS_TOP_LEVEL:STATIC=OFF
+database_project_test_lab2_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-database_project_test_lab1_SOURCE_DIR:STATIC=/home/fhl/bytedance-database-project/test/lab1
+database_project_test_lab2_SOURCE_DIR:STATIC=/home/fhl/bytedance-database-project/test/lab2
 
 //Value Computed by CMake
 database_project_thirdparty_BINARY_DIR:STATIC=/home/fhl/bytedance-database-project/build/thirdparty

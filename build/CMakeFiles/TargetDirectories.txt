@@ -22,8 +22,12 @@
 /home/fhl/bytedance-database-project/build/test/CMakeFiles/test.dir
 /home/fhl/bytedance-database-project/build/test/CMakeFiles/edit_cache.dir
 /home/fhl/bytedance-database-project/build/test/CMakeFiles/rebuild_cache.dir
-/home/fhl/bytedance-database-project/build/test/lab1/CMakeFiles/csv_data_loader_test.dir
-/home/fhl/bytedance-database-project/build/test/lab1/CMakeFiles/lab1_test.dir
-/home/fhl/bytedance-database-project/build/test/lab1/CMakeFiles/test.dir
-/home/fhl/bytedance-database-project/build/test/lab1/CMakeFiles/edit_cache.dir
-/home/fhl/bytedance-database-project/build/test/lab1/CMakeFiles/rebuild_cache.dir
+/home/fhl/bytedance-database-project/build/test/lab2/CMakeFiles/column_sum_test.dir
+/home/fhl/bytedance-database-project/build/test/lab2/CMakeFiles/custom_table_test.dir
+/home/fhl/bytedance-database-project/build/test/lab2/CMakeFiles/predicated_all_columns_sum_test.dir
+/home/fhl/bytedance-database-project/build/test/lab2/CMakeFiles/predicated_column_sum_test.dir
+/home/fhl/bytedance-database-project/build/test/lab2/CMakeFiles/predicated_update_test.dir
+/home/fhl/bytedance-database-project/build/test/lab2/CMakeFiles/put_get_test.dir
+/home/fhl/bytedance-database-project/build/test/lab2/CMakeFiles/test.dir
+/home/fhl/bytedance-database-project/build/test/lab2/CMakeFiles/edit_cache.dir
+/home/fhl/bytedance-database-project/build/test/lab2/CMakeFiles/rebuild_cache.dir

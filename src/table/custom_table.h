@@ -1,6 +1,6 @@
 #pragma once
 #include "table.h"
-#include <vector>
+#include "../BPlusTree.h"
 
 namespace bytedance_db_project {
 //
@@ -43,5 +43,11 @@ public:
   int64_t PredicatedUpdate(int32_t threshold) override;
 
 private:
+	int32_t num_cols_{ 0 };
+	int32_t num_rows_{ 0 };
+	Bplustree::BPlusTree<char, int32_t> index_0;
+	Bplustree::BPlusTree<char, int32_t> index_1;
+	char* rows_{ nullptr };
+
 };
 } // namespace bytedance_db_project
