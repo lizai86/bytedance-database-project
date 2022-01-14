@@ -26,4 +26,12 @@ TEST_F(PredicatedColumnSumTest, IndexedRowTableTest) {
   IndexedRowTable it(0);
   it.Load(loader);
   ASSERT_EQ(49, it.PredicatedColumnSum(3, 5));
+
+  IndexedRowTable it2(1);
+  it2.Load(loader);
+  ASSERT_EQ(49, it2.PredicatedColumnSum(3, 5));
+
+  IndexedRowTable it3(2);
+  it3.Load(loader);
+  ASSERT_EQ(49, it3.PredicatedColumnSum(3, 5));
 }

@@ -1,6 +1,7 @@
 #pragma once
 
 #include "data/csv_data_loader.h"
+#include <gtest/gtest.h>
 #include <iostream>
 
 using namespace bytedance_db_project;
